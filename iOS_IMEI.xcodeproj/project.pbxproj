@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EF194872498E52800B4BE5E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 1EF194862498E52800B4BE5E /* main.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1EF1947C2498E52800B4BE5E /* iOS_IMEI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = iOS_IMEI; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EF194812498E52800B4BE5E /* control */ = {isa = PBXFileReference; lastKnownFileType = text; path = control; sourceTree = "<group>"; };
+		1EF194822498E52800B4BE5E /* monkeydev.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = monkeydev.entitlements; sourceTree = "<group>"; };
+		1EF194852498E52800B4BE5E /* 0xdeadfa11 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 0xdeadfa11; sourceTree = "<group>"; };
+		1EF194862498E52800B4BE5E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EF194792498E52800B4BE5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EF194732498E52800B4BE5E = {
+			isa = PBXGroup;
+			children = (
+				1EF1947E2498E52800B4BE5E /* iOS_IMEI */,
+				1EF1947D2498E52800B4BE5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EF1947D2498E52800B4BE5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EF1947C2498E52800B4BE5E /* iOS_IMEI */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EF1947E2498E52800B4BE5E /* iOS_IMEI */ = {
+			isa = PBXGroup;
+			children = (
+				1EF194822498E52800B4BE5E /* monkeydev.entitlements */,
+				1EF194862498E52800B4BE5E /* main.c */,
+				1EF1947F2498E52800B4BE5E /* Package */,
+			);
+			path = iOS_IMEI;
+			sourceTree = "<group>";
+		};
+		1EF1947F2498E52800B4BE5E /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				1EF194802498E52800B4BE5E /* DEBIAN */,
+				1EF194832498E52800B4BE5E /* usr */,
+			);
+			path = Package;
+			sourceTree = "<group>";
+		};
+		1EF194802498E52800B4BE5E /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				1EF194812498E52800B4BE5E /* control */,
+			);
+			path = DEBIAN;
+			sourceTree = "<group>";
+		};
+		1EF194832498E52800B4BE5E /* usr */ = {
+			isa = PBXGroup;
+			children = (
+				1EF194842498E52800B4BE5E /* bin */,
+			);
+			path = usr;
+			sourceTree = "<group>";
+		};
+		1EF194842498E52800B4BE5E /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				1EF194852498E52800B4BE5E /* 0xdeadfa11 */,
+			);
+			path = bin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EF1947B2498E52800B4BE5E /* iOS_IMEI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EF1948A2498E52800B4BE5E /* Build configuration list for PBXNativeTarget "iOS_IMEI" */;
+			buildPhases = (
+				1EF194782498E52800B4BE5E /* Sources */,
+				1EF194792498E52800B4BE5E /* Frameworks */,
+				1EF1947A2498E52800B4BE5E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS_IMEI;
+			productName = iOS_IMEI;
+			productReference = 1EF1947C2498E52800B4BE5E /* iOS_IMEI */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EF194742498E52800B4BE5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				TargetAttributes = {
+					1EF1947B2498E52800B4BE5E = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 1EF194772498E52800B4BE5E /* Build configuration list for PBXProject "iOS_IMEI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EF194732498E52800B4BE5E;
+			productRefGroup = 1EF1947D2498E52800B4BE5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EF1947B2498E52800B4BE5E /* iOS_IMEI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EF1947A2498E52800B4BE5E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EF194782498E52800B4BE5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EF194872498E52800B4BE5E /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1EF194882498E52800B4BE5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"iOS_IMEI\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EF194892498E52800B4BE5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"iOS_IMEI\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		1EF1948B2498E52800B4BE5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = iOS_IMEI/monkeydev.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3X34DXMD24;
+				INSTALL_PATH = /usr/bin;
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = "";
+				MonkeyDevDevicePassword = "";
+				MonkeyDevDevicePort = "";
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1EF1948C2498E52800B4BE5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = iOS_IMEI/monkeydev.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3X34DXMD24;
+				INSTALL_PATH = /usr/bin;
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = "";
+				MonkeyDevDevicePassword = "";
+				MonkeyDevDevicePort = "";
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EF194772498E52800B4BE5E /* Build configuration list for PBXProject "iOS_IMEI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EF194882498E52800B4BE5E /* Release */,
+				1EF194892498E52800B4BE5E /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EF1948A2498E52800B4BE5E /* Build configuration list for PBXNativeTarget "iOS_IMEI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EF1948B2498E52800B4BE5E /* Release */,
+				1EF1948C2498E52800B4BE5E /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EF194742498E52800B4BE5E /* Project object */;
+}
